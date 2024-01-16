@@ -17,6 +17,7 @@ public:
     //~Node(){}
 };
 
+//passing tail by reference as we want to modify the original linked list 
 void insertNode(Node* &tail, int element, int d)
 {
     //empty list
@@ -45,7 +46,8 @@ void insertNode(Node* &tail, int element, int d)
     }
 }
 
-void print(Node* &tail)
+//passing list as value works here because printing
+void print(Node* tail)
 {
     //for single node
     Node* temp = tail;

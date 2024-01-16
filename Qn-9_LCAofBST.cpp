@@ -11,6 +11,7 @@ struct treeNode
     {
         this -> data = x;
         this -> left = NULL;
+        this -> right = NULL;
     }
 };
 

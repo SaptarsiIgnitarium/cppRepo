@@ -46,5 +46,5 @@ int firstBadVersion(int n)
         }
         
     }
-    return mid;    
+    return left;    
 }
