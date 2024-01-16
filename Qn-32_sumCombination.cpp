@@ -4,11 +4,11 @@ using namespace std;
 
 void findCombinations(int index, int target, vector<int>& arr, vector<vector<int>>& result, vector<int>& path)
 {
-        if(target == 0)
-        {
-            result.push_back(path);
-            return;
-        }
+    if(target == 0)
+    {
+        result.push_back(path);
+        return;
+    }
  
     if(index == arr.size())
         return;

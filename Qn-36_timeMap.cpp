@@ -49,7 +49,7 @@ public:
 int main()
 {
     TimeMap object;
-
+   // [[], ["foo", "bar", 1], ["foo", 1], ["foo", 3], ["foo", "bar2", 4], ["foo", 4], ["foo", 5]]
     object.set("alm", "high1", 1);  //timestamp as 1
     object.set("alm", "high2", 2);  //timestamp as 2
 

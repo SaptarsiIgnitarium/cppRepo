@@ -30,8 +30,8 @@ int main()
     root->left->right->left = new treeNode(3);
     root->left->right->right = new treeNode(5);
 
-    treeNode* node1 = root->left->left;
-    treeNode* node2 = root->left->right;
+    treeNode* node1 = root->left->right->left;
+    treeNode* node2 = root->left->right->right;
 
     treeNode* result = lowestCommonAncestor(root, node1, node2);
 
